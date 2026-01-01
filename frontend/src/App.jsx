@@ -61,6 +61,13 @@ export default function App() {
           }}
         />
       )}
+
+      {currentPage === 'welcome' && (
+        <div>
+          <h1>Milliy Sertifikat</h1>
+          <p>Welcome to the application</p>
+        </div>
+      )}
     </div>
   );
 }
